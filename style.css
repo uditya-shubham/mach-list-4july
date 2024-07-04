@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(168, 236, 236);
+}
+#main{
+    width: 100%;
+    max-width: 380px;
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+    top: 10%;
+    left: 40%;
+    box-sizing: border-box;
+}
+#fstHead{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 20px;
+    /* align-items: center; */
+}
+
+
+#searchBar{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#search{
+    width: 250px;
+    background-color: rgba(231, 189, 189, 0.322);
+    border-radius: 18px;
+    padding: 10px;
+    padding-left: 15px;
+    display: flex;
+    /* justify-content:space-around; */
+    align-items: center;
+}
+
+#recommend{
+  
+    position: relative;
+    margin:20px;
+    
+}
+
+figure{
+    width: 250px;
+}
+
+figcaption{
+    font-weight: bolder;
+    font-size: large;
+}
+
+#pic-credit{
+    /* position:relative; */
+    width: 100%;
+    max-width: 300px;
+    font-size: smaller;
+    left: 20px;
+    font-weight:lighter;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+#pcc{
+    display: flex;
+    align-items: center;
+}
+
+
+#selections{
+    /* position:inherit; */
+     width: 100%;
+     max-width:375px;
+     left: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: small;
+
+}
+
+.section{
+    border: 1px solid rgb(211, 186, 186);
+    border-radius: 5px;
+}
+
+.All{
+    background-color: black;
+    color: white;
+}
+
+.pic-text{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#descrip{
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+.date-view{
+    font-weight: lighter;
+    font-style: normal;
+    font-size: small;
+}
+
+.textual{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: smaller;
+}
+.technology{
+    background-color: rgb(221, 214, 214);
+    border-radius: 3px;
+}
+
+.foot-imgs{
+    display: flex;justify-content: space-around;
+
+}
+
+@media screen and (width<=1000px){
+    #main{
+        width: 100%;
+        max-width: 330px;
+        background-color: white;
+        border-radius: 25px;
+        position: relative;
+        top: 10%;
+        left: 5%;
+        box-sizing: border-box;
+    }
+}
